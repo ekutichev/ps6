@@ -10,5 +10,4 @@ type ps6-wn.txt
 pause
 cls
 call ps6-check.bat
-pause
 exit
