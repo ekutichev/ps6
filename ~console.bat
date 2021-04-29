@@ -1,6 +1,7 @@
 @echo off
 :c
 title console
+color 0f
 set /p c=[.\] ~ 
 if "%c%"=="ps6-update" (call lib\ps6\ps6-update.bat && goto c)
 if "%c%"=="ps6-check" (call lib\ps6\ps6-check.bat && goto c)
