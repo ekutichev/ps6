@@ -1,0 +1,3 @@
+Thank you for installing the ps6 update.
+- Changed the structure of the ps6 library
+- Added a console.

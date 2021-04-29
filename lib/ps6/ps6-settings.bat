@@ -1,4 +1,3 @@
-@echo off
 title ps6
 :main.cmd
 set /p title=Name: 
@@ -9,14 +8,13 @@ cls
 (echo.@echo off
 echo.color %color%
 echo.title %title%
-echo.cls)>main.cmd
+echo.cls)>lib\ps6\main.cmd
 
 :restart
 set /p path=Path to the executable file: 
 cls
 (echo.start %path%
-echo.exit)>restart.cmd
+echo.exit)>lib\ps6\restart.cmd
 
 cls
-call ps6-check.bat
-exit
+call lib\ps6\ps6-check.bat
