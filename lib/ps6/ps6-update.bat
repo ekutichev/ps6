@@ -10,4 +10,5 @@ type lib\ps6\ps6-wn.txt
 pause
 cls
 call lib\ps6\ps6-check.bat
+pause
 exit
