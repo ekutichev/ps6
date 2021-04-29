@@ -6,8 +6,8 @@ lib\ps6\xcopy.exe /E /Y ps6-update\*.* .\
 rd /S /Q ps6-update
 del .gitignore
 cls
-type \ps6-wn.txt
+type lib\ps6\ps6-wn.txt
 pause
 cls
-call ps6-check.bat
+call lib\ps6\ps6-check.bat
 exit
